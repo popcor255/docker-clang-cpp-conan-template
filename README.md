@@ -8,6 +8,19 @@ for gcc. This guide shows how to built them with Clang.
 
 ## Docker Setup
 
+To do a full build run:
+
+```bash
+    docker build -t appName .
+```
+
+To do a postBuild run:
+
+```bash
+    docker build --target post .
+```
+
+**PostBuild: You can just rebuild the source code without rebuilding the libraries**
 
 
 ## Local Development Setup 
